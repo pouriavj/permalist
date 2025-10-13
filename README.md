@@ -71,9 +71,31 @@ The app lets you **add, edit, and delete** tasks with smooth transitions and liv
    npm install -g nodemon
    nodemon index.js
    ```
-7. **Visit the app:**
+6. **Visit the app:**
    ```bash
    http://localhost:3000
 
    ```
+
+---
+
+## 💡 How It Works
+
+- Every item you add is stored in the PostgreSQL database (`items` table).  
+- Editing an item updates it directly in the database.  
+- Deleting an item removes it permanently with a smooth fade-out animation.  
+- The app uses **Express** routes with async/await for CRUD operations.  
+- **EJS templates** render the front-end dynamically, showing tasks and handling inline editing.  
+- Error handling is included for invalid data inputs.
+
+## 🧠 Learning Highlights
+
+This project demonstrates:
+- Using **Express routes** with async/await  
+- Performing **CRUD operations** with PostgreSQL  
+- Rendering **dynamic front-end views** with EJS templates  
+- Handling **form submissions**, inline editing, and smooth animations  
+- Structuring a simple full-stack Node.js project  
+- Connecting front-end interactions with a persistent database
+
 
