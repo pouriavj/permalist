@@ -16,6 +16,13 @@ The app lets you **add, edit, and delete** tasks with smooth transitions and liv
 
 ---
 
+## 🎨 Demo Preview
+
+
+![Permalist Demo](toDoList.gif)
+
+---
+
 ## 🧩 Tech Stack
 
 | Layer | Technology |
@@ -100,12 +107,7 @@ This project demonstrates:
 
 ---
 
-## 🎨 Demo Preview
 
-
-![Permalist Demo](toDoList.gif)
-
----
 
 ## 📜 License
 
