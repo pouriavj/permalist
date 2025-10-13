@@ -41,22 +41,24 @@ The app lets you **add, edit, and delete** tasks with smooth transitions and liv
 3. **Create a PostgreSQL database:**
    ```sql
    CREATE DATABASE permalist;
-   \c permalist
-   CREATE TABLE items (
-   id SERIAL PRIMARY KEY,
-   title TEXT NOT NULL
-   );
+      \c permalist
+      -- Create SQL Table --
+       CREATE TABLE items (
+       id SERIAL PRIMARY KEY,
+       title VARCHAR(100) NOT NULL CHECK (title <> '')
+       );
+
 
    ```
 4. **Update connection info in index.js:**
    ```js
-   const db = new pg.Client({
-    user: "your-username-here",
-    host: "localhost",
-    database: "permalist",
-    password: "your-password-here",
-    port: 5432,
-    });
+       const db = new pg.Client({
+       user: "your-username-here",
+       host: "localhost",
+       database: "permalist",
+       password: "your-password-here",
+       port: 5432,
+       });
 
    ```
 5. **Run the app:**
@@ -64,5 +66,14 @@ The app lets you **add, edit, and delete** tasks with smooth transitions and liv
    node index.js
 
    ```
+   or, for automatic reloads during development:
+   ```bash
+   npm install -g nodemon
+   nodemon index.js
+   ```
+7. **Visit the app:**
+   ```bash
+   http://localhost:3000
 
+   ```
 
