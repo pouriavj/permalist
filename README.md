@@ -53,7 +53,7 @@ The app lets you **add, edit, and delete** tasks with smooth transitions and liv
 4. **Update connection info in index.js:**
    ```js
     const db = new pg.Client({
-     user: "your-username-here",       // PostgreSQL username
+     user: "your-username-here",        // PostgreSQL username
      host: "localhost",                 // Database host (usually localhost)
      database: "permalist",             // Database name
      password: "your-password-here",    // PostgreSQL password
