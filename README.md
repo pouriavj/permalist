@@ -98,4 +98,23 @@ This project demonstrates:
 - Structuring a simple full-stack Node.js project  
 - Connecting front-end interactions with a persistent database
 
+---
+
+## 🎨 Demo Preview
+
+
+![Permalist Demo](toDoList.gif)
+
+---
+
+## 📜 License
+
+This project is open-source and available under the **MIT License**.
+
+---
+
+### ✨ Author
+**Pouria**  
+💻 [GitHub](https://github.com/pouriavj)
+
 
