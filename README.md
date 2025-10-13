@@ -26,6 +26,43 @@ The app lets you **add, edit, and delete** tasks with smooth transitions and liv
 | **Middleware** | Body-Parser |
 
 ---
+## ⚙️ Installation & Setup
 
-## 📁 Project Structure
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/permalist.git
+   cd permalist
+   ```
+2. **Install dependencies:**
+   ```bash
+   npm install
+
+   ```
+3. **Create a PostgreSQL database:**
+   ```sql
+   CREATE DATABASE permalist;
+   \c permalist
+   CREATE TABLE items (
+   id SERIAL PRIMARY KEY,
+   title TEXT NOT NULL
+   );
+
+   ```
+4. **Update connection info in index.js:**
+   ```js
+   const db = new pg.Client({
+    user: "your-username-here",
+    host: "localhost",
+    database: "permalist",
+    password: "your-password-here",
+    port: 5432,
+    });
+
+   ```
+5. **Run the app:**
+   ```bash
+   node index.js
+
+   ```
+
 
