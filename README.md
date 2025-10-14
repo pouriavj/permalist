@@ -37,7 +37,7 @@ The app lets you **add, edit, and delete** tasks with smooth transitions and liv
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/permalist.git
+   git clone https://github.com/pouriavj/permalist.git
    cd permalist
    ```
 2. **Install dependencies:**
