@@ -1,5 +1,13 @@
 # 📝 Permalist Project
 
+![Node.js](https://img.shields.io/badge/Node.js-18-green?logo=node.js)
+![Express](https://img.shields.io/badge/Express.js-4.18-black?logo=express)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-blue?logo=postgresql)
+![EJS](https://img.shields.io/badge/EJS-3.1-red?logo=ejs)
+![ES6](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript)
+![License](https://img.shields.io/badge/license-MIT-green)
+
+
 A clean and minimal **To-Do List web app** built with **Node.js**, **Express**, **EJS**, and **PostgreSQL**.  
 The app lets you **add, edit, and delete** tasks with smooth transitions and live updates stored permanently in the database — hence the name **Permalist**.
 
